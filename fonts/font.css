@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(Inter-Regular.ttf) format(truetype);
+    src: url(Inter-Regular.woff) format(woff);
+    src: url(Inter-Regular.woff2) format(woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+        font-family: 'Inter';
+        src: url(Inter-Medium.ttf) format(truetype);
+        src: url(Inter-Medium.woff) format(woff);
+        src: url(Inter-Medium.woff2) format(woff2);
+        font-weight: 500;
+        font-style: normal;
+   }
+@font-face {
+        font-family: 'Inter';
+        src: url(Inter-Bold.ttf) format(truetype);
+        src: url(Inter-Bold.woff) format(woff);
+        src: url(Inter-Bold.woff2) format(woff2);
+        font-weight: 700;
+        font-style: normal;
+   }
+@font-face {
+        font-family: 'Inter';
+        src: url(Inter-Italic.ttf) format(truetype);
+        src: url(Inter-Italic.woff) format(woff);
+        src: url(Inter-Italic.woff2) format(woff2);
+        font-weight: 400;
+        font-style: italic;
+   }
+@font-face {
+        font-family: 'Inter';
+        src: url(Inter-ThinBETA.ttf) format(truetype);
+        src: url(Inter-ThinBETA.woff) format(woff);
+        src: url(Inter-ThinBETA.woff2) format(woff2);
+        font-weight: 300;
+        font-style: normal;
+   }
+:root{
+        --main-font: 'Inter', sans-serif;
+        --font-weight-light: 300;
+        --font-weight-regular: 400; 
+        --font-weight-medium: 500; 
+        --font-weight-bold: 700;
+    
+        --font-size-h1: 32px; 
+        --font-size-h2: 28px; 
+        --font-size-h3: 24px; 
+        --font-size-h4: 20px; 
+        --font-size-h5: 18px; 
+        --font-size-regular: 16px;
+        --font-size-small: 12px;
+}
